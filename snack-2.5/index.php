@@ -16,7 +16,7 @@
     <p>
         <?php 
             if(isset($_GET["first_number"]) && isset($_GET["second_number"])){
-                echo "La media dei numeri è ". floatval($_GET["first_number"]) + floatval($_GET["second_number"]) / 2;
+                echo "La media dei numeri è ". (floatval($_GET["first_number"]) + floatval($_GET["second_number"])) / 2;
             }
         ?>
     </p>
