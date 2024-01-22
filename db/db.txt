@@ -1,0 +1,3 @@
+SELECT * FROM `students` WHERE `name` LIKE '%o';
+
+SELECT `name`, `office_number` FROM `teachers` WHERE `name` LIKE '%s%' AND `office_number` > 96;
