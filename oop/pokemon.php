@@ -14,5 +14,15 @@
             $this->locations;
             $this->moves;
         }
+
+        public function getName() {
+            return $this->name;
+        }
+        public function getRace() {
+            return $this->race;
+        }
+        public function getTypes() {
+            return $this->types;
+        }
     }
 ?>
